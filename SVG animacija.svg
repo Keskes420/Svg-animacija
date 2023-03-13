@@ -1,0 +1,373 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 710" width="1535" height="720" 
+version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+    <radialGradient id="radijalniGradijent" cx="0" cy="0" r="80%">
+        <stop offset="0%" stop-color="orange" />
+        <stop offset="50%" stop-color="whitesmoke" />
+        <stop offset="100%" stop-color="#025570" />
+    </radialGradient>
+    <linearGradient id="linearniGradijent">
+        <stop offset="0%" stop-color="orange" />
+        <stop offset="50%" stop-color="red" />
+        <stop offset="100%" stop-color="darkred" />
+    </linearGradient>
+
+    <style>
+      
+      .linija {
+        fill: gray;
+        stroke: black;
+      }
+      .crna{
+        fill: black;
+        stroke: none;
+      }
+      .plava{
+        fill: darkblue;
+        stroke: black;
+      }
+      .narancasta{
+        fill: gold;
+        stroke: black;
+      }
+    </style>
+    
+  </defs>
+  <g id="kaciga" transform="scale(0.5) translate(-500)">
+    <g id="TopHead">
+      <path id="Top_helmet" class="linija" d="M235,20.67S352.39,11.82,379.4,130.3L368,134.83l-.7,56.54c-5.61,7.53-309.18,7.28-311.58,0L55,134.83,43.52,130.3S61,18.78,188,20.57Z" transform="translate(0.47 0.5)"/>
+      <path id="topside" class="narancasta" d="M47.81,132,55,134.83l.74,56.55s-26-4-18.88-10.59Z" transform="translate(0.47 0.5)"/>
+      <path id="topside" class="narancasta" d="M375.07,132l-7.14,2.83-.74,56.55s26-4,18.88-10.59Z" transform="translate(0.47 0.5)"/>
+      <path id="topsidebot" class="linija" d="M55.69,191.38s-27.43-2.65-30.13-7.29,10-6.14,11.25-3.3C36.81,180.79,28.57,186.33,55.69,191.38Z" transform="translate(0.47 0.5)"/>
+      <path id="topsidebot" class="linija" d="M367.23,191.42s27.43-2.64,30.13-7.29-10-6.14-11.25-3.3C386.11,180.83,394.35,186.38,367.23,191.42Z" transform="translate(0.47 0.5)"/>
+    </g>
+    <polygon id="Kvadratzapokrit" class="linija" points="18.62 264.13 25.75 358.38 46.92 501.15 382.11 498.77 402.53 330 406 230.66 23.01 257.55 18.62 264.13"/>
+
+    <g id="Notch">
+      <path id="notchout" class="plava" d="M193,3.31V82h-5V3.31S190.27-4.13,193,3.31Z" transform="translate(0.47 0.5)"/>
+      <rect id="notch" class="linija" x="193.43" y="3.81" width="37" height="78.7"/>
+      <path id="notchout" class="plava" d="M235,3.31c0-3.93-5-4.66-5,0V82h5Z" transform="translate(0.47 0.5)"/>
+    </g>
+    <g id="Ears">
+      <path id="earinner" class="plava" d="M397.36,184.13l.34,76.79s-1.65,7.15,7,5.88V192.75S404.54,185,397.36,184.13Z" transform="translate(0.47 0.5)"/>
+      <path id="earmid" class="linija" d="M404.73,200.5s7.93-1.49,9.2,12.61v28.31s0,10.44-9.2,11.27Z" transform="translate(0.47 0.5)"/>
+      <path id="earout" class="narancasta" d="M413.93,241.42s8.92.25,8.92-2.76V215.88s.28-3.09-8.92-2.77Z" transform="translate(0.47 0.5)"/>
+      <path id="earinner" class="plava" d="M25.53,184.13l-.34,76.79s1.65,7.15-7,5.88V192.75S18.35,185,25.53,184.13Z" transform="translate(0.47 0.5)"/>
+      <path id="earmid" class="linija" d="M18.16,200.5S10.23,199,9,213.11v28.31s0,10.44,9.2,11.27Z" transform="translate(0.47 0.5)"/>
+      <path id="earout" class="narancasta" d="M9,241.42S0,241.67,0,238.66V215.88s-.27-3.09,8.93-2.77Z" transform="translate(0.47 0.5)"/>
+    </g>
+    <path id="Right side" class="linija" d="M404.43,266.8l-2,75.22s-7.26,24.53-6,48.21c0,0,29.38,7.08,25.92,61.68-2.08,32.79-60.7,59.07-60.7,59.07 " transform="translate(0.47 0.5)"/>
+    <path id="Left side" class="linija" d="M18.46,266.8l2,75.22s7.26,24.53,6.05,48.21c0,0-29.38,7.08-25.92,61.68C2.7,484.7,61.32,511,61.32,511" transform="translate(0.47 0.5)"/>
+    <g id="Eyes">
+      <path id="Eyes_top" class="plava" d="M365.21,195.26c-.41,2.21-1.8,5-6,6.41-8.43,2.75-.26,3.7-147.1,9.45h-1.56c-146.84-5.75-138.5-7-146.26-9.14s-6.71-9.75-6.71-9.75c25.28,2.87,69.45,5.17,153.75,5.42,82.31-.24,128.29-2.65,153.94-5.43A8.92,8.92,0,0,1,365.21,195.26Z" transform="translate(0.47 0.5)"/>
+      <path id="Glasses" class="crna" d="M203.44,363.59a21.42,21.42,0,0,1,7.92-2.63h0a22.32,22.32,0,0,1,8.11,2.62s9.48-96,28.83-114,36.11-10.54,36.11-10.54l83.46,36.46-2.63-80.7a8.92,8.92,0,0,0,.06-3,8.92,8.92,0,0,1-.06,3c-.41,2.21-1.8,5-6,6.41-8.43,2.75-.26,3.7-147.1,9.45h-1.56c-146.84-5.75-138.5-7-146.26-9.14s-6.71-9.75-6.71-9.75a8.92,8.92,0,0,0,.06,3L55,275.54l83.46-36.46s16.76-7.43,36.11,10.54S203.44,363.59,203.44,363.59Z" transform="translate(0.47 0.5)"/>
+    </g>
+    <path id="Jaw" class="linija" d="M122.42,415.2c-.78.52-1.62,1-2.49,1.51a74.94,74.94,0,0,1-14.38,6.44S61.9,433.52,54.23,445.36c-3.06,4.73-9.26,11.83-4.85,34.22a108,108,0,0,0,11.71,32h0C69.35,526.3,80.63,537.88,93,544.68c14.85,8.15,40.65,18.44,68.39,8.9,0,0,23.61-17.93,25.08-35.76l5.45-.21,5-4.4,14.52-.21,14.51.21,5,4.4,5.45.21c1.47,17.83,25.08,35.76,25.08,35.76,27.73,9.54,53.53-.75,68.39-8.9,20.41-11.2,37.79-35.32,43.65-65.1,4.41-22.39-1.79-29.49-4.85-34.22-7.67-11.84-51.32-22.21-51.32-22.21a74.94,74.94,0,0,1-14.38-6.44c-.87-.51-1.69-1-2.47-1.55" transform="translate(0.47 0.5)"/>
+    <g id="Ventils">
+      <g id="roundvent">
+        <path id="outcircle" class="linija" d="M149.45,498a27.86,27.86,0,0,1,8.92,20.67c0,15-11.68,28.43-25.62,29.6-16.41,1.39-30.87-14.62-28.46-31,1.26-8.56,7.1-15.83,13.59-20.44" transform="translate(0.47 0.5)"/>
+        <path id="Ventaround" class="narancasta" d="M170.42,500.09l-48.15-4.81S99.07,502,94.88,518.1s18.12,30,18.12,30,32.52,4.19,45-7.34S170.42,500.09,170.42,500.09Z" transform="translate(0.47 0.5)"/>
+        <ellipse id="inncircle" class="crna" cx="131.56" cy="526.59" rx="16.72" ry="15.68"/>
+      </g>
+      <g id="roundvent">
+        <path id="outcircle" class="linija" d="M273.61,498a27.87,27.87,0,0,0-8.93,20.67c0,15,11.68,28.43,25.62,29.6,16.42,1.39,30.88-14.62,28.47-31-1.27-8.56-7.1-15.83-13.59-20.44" transform="translate(0.47 0.5)"/>
+        <path id="Ventaround" class="narancasta" d="M252.63,500.09l48.16-4.81S324,502,328.18,518.1s-18.12,30-18.12,30-32.53,4.19-45-7.34S252.63,500.09,252.63,500.09Z" transform="translate(0.47 0.5)"/>
+        <ellipse id="inncircle" class="crna" cx="292.43" cy="526.59" rx="16.72" ry="15.68"/>
+      </g>
+      <path id="ventside" class="narancasta" d="M186.52,517.82l5.45-.21,5-4.4h0l-18.53-22.86-8.05,9.75s13.58,17.82,16.09,17.73" transform="translate(0.47 0.5)"/>
+      <path id="ventside" class="narancasta" d="M236.54,517.82l-5.45-.21-5-4.4h0l18.53-22.86,8,9.75s-13.57,17.82-16.09,17.73" transform="translate(0.47 0.5)"/>
+      <polyline id="ventmid" class="plava" points="178.73 490.84 197.25 513.71 197.25 513.71 211.77 513.5 226.28 513.71 226.32 513.7 244.85 490.84 245.03 490.84 211.98 490.84 178.93 490.84"/>
+    </g>
+    <g id="Mouth">
+      <polygon id="Tooth" class="crna" points="124.88 414.45 124.81 420.6 134.92 418.91 134.99 408.08 124.88 414.45"/>
+      <polygon id="Tooth" class="crna" points="153.86 396.2 153.92 415.66 166.14 413.49 166.21 388.43 153.86 396.2"/>
+      <polygon id="Tooth" class="crna" points="191.03 372.81 190.36 408.93 201.86 406.54 201.92 365.68 191.03 372.81"/>
+      <polygon id="Tooth" class="crna" points="221.99 406.79 233.49 408.98 232.76 372.8 221.87 365.67 221.99 406.79"/>
+      <polygon id="Tooth" class="crna" points="257.58 388.42 257.71 413.54 270.06 415.82 269.93 396.19 257.58 388.42"/>
+      <polygon id="Tooth" class="crna" points="288.8 408.07 288.8 418.94 299.04 420.64 298.91 414.44 288.8 408.07"/>
+    </g>
+    <path id="Botom mouth" class="linija" d="M105.37,423.18s78.34-12.37,106-19.46c27.61,7.09,106,19.46,106,19.46" transform="translate(0.47 0.5)"/>
+
+    <g id="Face">
+      <path id="Facemidle" class="linija" d="M397.57,261.56s-4.2-2.29-7,3.58c-.12.25-.29.68-.53,1.25L324.43,305c-41.87,23.49-38,69.7-38,69.7v12s-5.11,15.68,14,28.52l-2-1.25-10.11-6.37-18.87-11.88-12.35-7.77L232.29,372.3,223.9,367a21.41,21.41,0,0,0-2.5-1.85c-.57-.37-1.22-.77-2-1.16,0,0,9.48-96,28.83-114s36.11-10.54,36.11-10.54L367.84,276l-2.63-80.7a8.92,8.92,0,0,0,.06-3l1.82-.2h.05c1.72-.2,3.34-.39,4.87-.59,19.24-2.48,24.06-5.11,25.21-6.68Z" transform="translate(0.47 0.5)"/>
+      <path id="Facemidle" class="linija" d="M25.28,261.57s4.2-2.29,7,3.58c.12.25.29.68.53,1.25L98.42,305c41.87,23.49,38,69.7,38,69.7v12s5.11,15.68-14,28.52l2-1.25,10.11-6.37,18.87-11.88,12.35-7.77,24.82-15.62L199,367a21.41,21.41,0,0,1,2.5-1.85c.57-.37,1.22-.77,2-1.16,0,0-9.48-96-28.83-114s-36.11-10.54-36.11-10.54L55,276l2.63-80.7a8.92,8.92,0,0,1-.06-3l-1.82-.2h0c-1.72-.2-3.34-.39-4.87-.59-19.24-2.48-24.06-5.11-25.21-6.68Z" transform="translate(0.47 0.5)"/>
+      <path id="Faceside" class="plava" d="M390,266.39l-.47,1.2c-6.18,16-34.67,97-47.25,98.66l-1.68.61-19.06-5-1.73-.46L324.43,305Z" transform="translate(0.47 0.5)"/>
+      <polygon id="Faceside" class="narancasta" points="341.1 367.36 286.86 387.17 286.86 375.17 320.31 361.89 322.04 362.35 341.1 367.36"/>
+      <path id="Faceside" class="plava" d="M32.82,266.4l.47,1.2c6.18,16,34.67,97,47.25,98.66l1.68.61,19.06-5,1.73-.46L98.42,305Z" transform="translate(0.47 0.5)"/>
+      <polygon id="Faceside" class="narancasta" points="82.69 367.37 136.93 387.18 136.93 375.18 103.48 361.9 101.75 362.36 82.69 367.37"/>
+    </g>
+    <g id="Marks">
+
+      <g id="MarksR">
+        <path id="Mark" class="crna" d="M363.69,415.63c1.22,2.15,2.54,4.23,3.87,6.31s2.71,4.12,4.1,6.16,2.81,4,4.28,6l2.21,3c.77,1,1.51,2,2.3,2.91-.61-1.08-1.27-2.13-1.9-3.19l-2-3.12c-1.32-2.08-2.7-4.12-4.09-6.16s-2.82-4-4.29-6S365.25,417.55,363.69,415.63Z" transform="translate(0.47 0.5)"/>
+        <path id="Mark" class="crna" d="M370.38,411c1.23,2.14,2.54,4.23,3.87,6.31s2.71,4.11,4.1,6.15,2.81,4.05,4.28,6l2.21,3c.77,1,1.51,2,2.3,2.91-.6-1.08-1.26-2.12-1.89-3.18l-2-3.13c-1.32-2.08-2.71-4.12-4.1-6.15s-2.81-4.05-4.28-6S372,412.94,370.38,411Z" transform="translate(0.47 0.6)"/>
+        <path id="Mark" class="crna" d="M378,405.81c1.23,2.15,2.55,4.23,3.88,6.31s2.7,4.12,4.09,6.16,2.81,4,4.28,6l2.21,3c.77,1,1.51,2,2.3,2.91-.6-1.08-1.26-2.13-1.89-3.19l-2-3.12c-1.32-2.09-2.71-4.12-4.1-6.16s-2.81-4-4.28-6S379.53,407.73,378,405.81Z" transform="translate(0.47 0.5)"/>
+        <path id="Mark" class="crna" d="M384,401.63c1.23,2.15,2.54,4.23,3.88,6.31s2.7,4.12,4.09,6.15,2.81,4.05,4.28,6l2.21,3c.77,1,1.51,2,2.3,2.9-.6-1.08-1.26-2.12-1.89-3.18l-2-3.13c-1.32-2.08-2.71-4.11-4.1-6.15s-2.81-4-4.28-6S385.61,403.54,384,401.63Z" transform="translate(0.47 0.5)"/>
+        <path id="Mark" class="crna" d="M392.12,396.07c1.22,2.15,2.54,4.24,3.87,6.31s2.71,4.12,4.1,6.16,2.81,4,4.28,6l2.21,3c.77,1,1.51,2,2.3,2.91-.61-1.08-1.26-2.13-1.89-3.19l-2-3.12c-1.33-2.08-2.71-4.12-4.1-6.16s-2.81-4-4.29-6S393.68,398,392.12,396.07Z" transform="translate(0.47 0.5)"/>
+      </g>
+      <g id="MarksL">
+        <path id="Mark" class="crna" d="M59.16,415.65c-1.22,2.14-2.54,4.23-3.87,6.3s-2.71,4.12-4.1,6.16-2.81,4.05-4.28,6l-2.21,3c-.77,1-1.51,2-2.3,2.91.61-1.08,1.27-2.12,1.9-3.19l2-3.12c1.32-2.08,2.7-4.12,4.09-6.16s2.82-4,4.29-6S57.6,417.56,59.16,415.65Z" transform="translate(0.47 0.5)"/>
+        <path id="Mark" class="crna" d="M52.47,411c-1.23,2.15-2.54,4.23-3.88,6.31s-2.7,4.12-4.09,6.16-2.81,4-4.28,6l-2.21,3c-.77,1-1.51,1.95-2.3,2.9.6-1.07,1.26-2.12,1.89-3.18l2-3.12c1.32-2.09,2.71-4.12,4.1-6.16s2.81-4.05,4.28-6S50.9,413,52.47,411Z" transform="translate(0.47 0.5)"/>
+        <path id="Mark" class="crna" d="M44.89,405.83c-1.23,2.14-2.55,4.23-3.88,6.3s-2.7,4.12-4.09,6.16-2.81,4-4.29,6l-2.21,3c-.76,1-1.5,2-2.29,2.91.6-1.08,1.26-2.12,1.89-3.19l2-3.12c1.32-2.08,2.71-4.12,4.1-6.16s2.81-4,4.28-6S43.32,407.74,44.89,405.83Z" transform="translate(0.47 0.5)"/>
+        <path id="Mark" class="crna" d="M38.81,401.64c-1.23,2.15-2.55,4.24-3.88,6.31s-2.7,4.12-4.09,6.16-2.81,4.05-4.28,6l-2.21,3c-.77,1-1.51,2-2.3,2.91.6-1.08,1.26-2.12,1.89-3.19l2-3.12c1.32-2.08,2.71-4.12,4.1-6.16s2.81-4,4.28-6S37.24,403.56,38.81,401.64Z" transform="translate(0.47 0.5)"/>
+        <path id="Mark" class="crna" d="M30.73,396.09c-1.23,2.14-2.54,4.23-3.87,6.3s-2.71,4.12-4.1,6.16-2.81,4.05-4.28,6l-2.21,3c-.77,1-1.51,2-2.3,2.91.61-1.08,1.26-2.12,1.89-3.18l2-3.13c1.33-2.08,2.71-4.12,4.1-6.15s2.81-4.05,4.29-6S29.16,398,30.73,396.09Z" transform="translate(0.47 0.5)"/>
+      </g>
+    </g>
+  </g>
+
+  <rect id="pozadina" x="0" y="-150" width="2000" height="2400"  style="fill:url(#radijalniGradijent);" >
+    <animateMotion id="pozadina"
+      path="M0,00  0,-1080" 
+      begin="0s" dur="15s" fill="freeze"/>
+  </rect>
+  <g id="Zgrade">
+   <rect fill="orange" height="303" id="Zgrada1" stroke="black" stroke-width="5" width="94" x="1761" y="800"/>
+   <rect fill="orange" height="303" id="Zgrada2" stroke="black" stroke-width="5" width="103" x="1500" y="800"/>
+   <rect fill="lightblue" height="424" id="Zgrada3" stroke="black" stroke-width="5" width="50" x="1733" y="677"/>
+   <rect fill="black" height="219" id="Zgrada4" stroke="black" stroke-width="5" width="47" x="1683" y="882"/>
+   <rect fill="lightblue" height="241" id="Zgrada5" stroke="black" stroke-width="5" width="66" x="1633" y="860"/>
+   <rect fill="gray" height="186" id="Zgrada6" stroke="black" stroke-width="5" width="72" x="1775" y="915"/>
+   <rect fill="lightgray" height="473" id="Zgrada7" stroke="black" stroke-width="5" width="70" x="1848" y="630"/>
+   <rect fill="black" height="75" stroke="black" stroke-width="5" width="146" x="1774" y="1028"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1802" y="1045"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1895" y="1045"/>
+   <rect fill="black" height="408" stroke="black" stroke-width="5" width="66" x="1570" y="693"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1583" y="715"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1618" y="715"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1583" y="770"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1618" y="775"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1583" y="815"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1583" y="925"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1618" y="815"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1618" y="865"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1618" y="925"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1583" y="865"/>
+   <rect fill="lightgray" height="74" id="Zgrada8" stroke="black" stroke-width="5" width="160" x="1573" y="1025"/>
+   <rect fill="black" height="701" id="Zgrada9" stroke="black" stroke-width="5" width="55" x="1705" y="400"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1713" y="424"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1738" y="423"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1748" y="473"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1713" y="473"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1733" y="473"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1733" y="518"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1710" y="518"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1748" y="518"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1708" y="563"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1733" y="563"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1748" y="563"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1718" y="603"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1738" y="603"/>
+    <rect fill="white" height="28" stroke="black" stroke-width="5" width="11" x="1733" y="10758"/>
+  
+  <animateMotion
+      path="M0,00  0,-280" 
+      begin="0s" dur="15s" fill="freeze"/>
+
+  <animateMotion id="rusenje"
+     path="M0,-280  20,-280 L -20,-280 20,-280 L -20,-280 20,-280 L -20,-280 20,-280 L -20,-280 20,-280 L -20,-280 00,-280"
+     begin="kraj.end-4" dur="1s" repeatCount="4"
+     fill="freeze"/>
+  <animateMotion
+     path="M0,-280  0,580" 
+     begin="rusenje.repeat(3)" dur="2s"
+     fill="freeze"/>
+  </g>
+
+
+  <use href="#kaciga" transform="scale(0.5) rotate(30,0,0)" id="kaciga2"/>
+
+  <use href="#kaciga2">
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="1" to="245"
+      begin="0s" dur="10s"/>
+    <animateMotion
+      path="M870,-200  2300,850" 
+      begin="0s" dur="10s"/>
+  </use>
+
+  <use href="#kaciga2" transform="rotate(20,0,0)">
+    <animateTransform attributeName="transform" type="scale"
+          from="1 1"
+          to="0.002 0.002"      
+          beg="0s"
+          dur="8s"
+          repeatCount="indefinite" />
+    <animateMotion
+      path="M1570,-200  2300,1500" 
+      begin="0s" dur="7s" fill="freeze"/>
+  </use>
+  <use href="#kaciga2">
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="1" to="185"
+      begin="0s" dur="7s"/>
+    <animateMotion
+      path="M1200,-200  1000,1000" 
+      begin="0s" dur="7s"/>
+  </use>
+  <use href="#kaciga2">
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="0" to="50"
+      begin="13s" dur="7s"
+      fill="freeze"/>
+    <animateMotion
+      path="M1200,-200  -100,1020" 
+      begin="13s" dur="7s" fill="freeze"/>
+  </use>
+  <use href="#kaciga2">
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="0" to="-50"
+      begin="13s" dur="4s"
+      fill="freeze"/>
+    <animateMotion
+      path="M2200,-200  -1000,1020" 
+      begin="13s" dur="4s" fill="freeze"/>
+  </use>
+  <use href="#kaciga2">
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="0" to="50"
+      begin="13s" dur="7s"
+      fill="freeze"/>
+    <animateMotion
+      path="M1000,-200  1800,1020" 
+      begin="13s" dur="7s" fill="freeze"/>
+  </use>
+  
+  <use href="#kaciga2">
+    <animateMotion
+      path="M870,-400  -800,520" 
+      begin="3s" dur="10s"/>
+      <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="0" to="-645"
+      begin="3s" dur="10s"/>
+  </use>
+  <use href="#kaciga2">
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="1" to="205"
+      begin="7s" dur="10s"/>
+    <animateMotion
+      path="M870,-200  3700,850" 
+      begin="7s" dur="10s"/>
+  </use>
+  <use href="#kaciga2">
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="1" to="245"
+      begin="3s" dur="10s"/>
+    <animateMotion
+      path="M2570,-200  300,1050" 
+      begin="3s" dur="10s"/>
+  </use>
+  <use href="#kaciga2">
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="0" to="-245"
+      begin="7s" dur="10s"/>
+    <animateMotion
+      path="M1450,-200  2000,1700" 
+      begin="7s" dur="10s"/>
+  </use>
+
+  <use href="#kaciga">
+    <animateMotion 
+      path="M1270,-400  2300,1000" 
+      begin="9s" dur="5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="1" to="95"
+      begin="9s" dur="5s"
+      fill="freeze"/>
+  </use>
+  <use href="#kaciga">
+    <animateMotion 
+      path="M670,-400  1100,1000" 
+      begin="3s" dur="5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="1" to="-45"
+      begin="3s" dur="5s"
+      fill="freeze"/>
+  </use>
+
+  <use href="#kaciga">
+    <animateTransform id="arot1" attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="1" to="45"
+      begin="0s" dur="14s"
+      fill="freeze"/>
+    <animateTransform id="arot2" attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="45" to="75"
+      begin="arot1.end" dur="1s"
+      fill="freeze"/>
+    <animateMotion id="ap1"
+      path="M470,-200  720,720" 
+      begin="0s" dur="15s" fill="freeze"/>
+    <animateMotion id="ap2"
+      path="M720,720  770,770" 
+      begin="ap1.end+5s" dur="1s" fill="freeze"/>
+  </use>
+
+  <use href="#kaciga">
+    <animateMotion id="k2_1"
+      path="M170,-300 C100,0 100,0 300,300" 
+      begin="ap1.end+2" dur="3s" fill="freeze"/>/>
+    <animateTransform  attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="80" to="270"
+      begin="ap1.end+2" dur="3s" fill="freeze"/>
+    <animateTransform  attributeName="transform" type="rotate"
+      attributeType="XML"
+      from="270" to="-90"
+      begin="k2_1.end" dur="4s"
+      fill="freeze"/>
+    <animateMotion 
+      path="M300,300  -1800,1000" 
+      begin="k2_1.end" dur="5s" fill="freeze"/>
+
+  </use>
+
+
+
+  <g id="tlo">
+    <use href="#kaciga2" transform=" translate(250, 1100) rotate(-60,0,0)"/>
+    <use href="#kaciga2" transform=" translate(400, 1200) rotate(30,0,0)"/>
+    <use href="#kaciga2" transform=" translate(850, 1200) rotate(60,0,0)"/>
+    <use href="#kaciga2" transform=" translate(1250, 1050) rotate(-30,0,0)"/>
+    <use href="#kaciga2" transform=" translate(1950, 950) rotate(-50,0,0)"/>
+    <use href="#kaciga2" transform=" translate(1500, 1000) rotate(-60,0,0)"/>
+    <use href="#kaciga" transform=" translate(100, 750) rotate(-50,250,150)"/>
+    <use href="#kaciga" transform=" translate(1300, 1300) rotate(50,250,150)"/>
+    <use href="#kaciga" transform="rotate(20,0,0) translate(1500, 500)"/>
+    <use href="#kaciga" transform="rotate(30) translate(2200, -100)"/>
+    <path d="m0,1400 l0,-200 c43.83562,-64.57534 178,-38 186,-30c8,8 41.08219,34.28767 134,-12c93,-47 143.57534,-7.53425 160,17c16.43835,24.65753 107.26027,33.91781 188,-22c81.20548,-56.23287 366.43836,-12.09589 366,-17 c43.83562,-64.57534 178,-38 356,-30c8,8 41.08219,34.28767 250,-12.71233 16.43835,24.65753 107.26027,33.91781 188,-22c81.20548,-56.23287 366.43836,-12.09589 366,-17  l0,300 z" 
+    fill="sandybrown" stroke="none" />
+    <text x ="1500" y="1250" font-size="68px" style="stroke:black; fill:none;">Luka Keckes</text>
+    
+    <animateMotion id="ap1"
+    path="M0,000  0,-500" 
+    begin="12s" dur="3s" fill="freeze"/>
+  </g>
+
+  <circle cx="2100" cy="500" r="25" fill-opacity="1" fill="url(#linearniGradijent)">
+  
+    <animate id="kraj" attributeName="r" attributeType="XML" from="20" to="500"
+    begin="ap2.end" dur="0.2s" fill="freeze" repeatCount="47" />
+    <animate attributeName="r" attributeType="XML" from="20" to="3000"
+    begin="kraj.repeat(7)" dur="1s" fill="freeze" />
+    <animate
+    attributeName="fill-opacity"
+    attributeType="css"
+    from="1" to="0.2"
+    begin="kraj.end-4s" dur="3s"
+    fill="freeze"/>
+
+  </circle>
+  
+</svg>
